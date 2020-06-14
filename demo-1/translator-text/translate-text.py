@@ -11,8 +11,9 @@ subscription_key = os.getenv("TRANSLATOR_TEXT_SUBSCRIPTION_KEY")
 endpoint = os.getenv("TRANSLATOR_TEXT_ENDPOINT")
 
 # All the informations about the params (https://docs.microsoft.com/en-us/azure/cognitive-services/translator/reference/v3-0-translate)
+# Languages have support to the Translator Text (https://docs.microsoft.com/es-es/azure/cognitive-services/translator/language-support)
 path = '/translate?api-version=3.0'
-params = '&to=en&to=es'
+params = '&to=en&to=zh-Hans'
 constructed_url = endpoint + path + params
 
 headers = {
@@ -22,7 +23,7 @@ headers = {
 }
 
 body = [{
-  'text': 'Thank you very much!!'
+  'text': 'How are you?'
 }]
 
 request = requests.post(constructed_url, headers=headers, json=body)
