@@ -13,9 +13,8 @@ Durante esta codificación en vivo, aprenderá a crear aplicaciones inteligentes
 ## 🚀 Recursos Utilizados 
 
 * **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=livecoding_msdeveloper-github-gllemos)**
-* **[Node.js](https://nodejs.org/en/)**
+* **[Python v.3](https://www.python.org/downloads/)**
 * **[Conta Azure - Conta Gratuita](https://azure.microsoft.com/pt-br/?WT.mc_id=livecoding_msdeveloper-github-gllemos)**
-
 
 ## ⭐️Azure for Students 
 
