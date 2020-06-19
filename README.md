@@ -22,24 +22,18 @@ Si es estudiante en cualquier colegio o universidad, puede crear su cuenta de Az
 
 ## ❗️ Ejecutando la Aplicación Localmente 
 
-1. Instalar as dependências locais executando o comando:
+1. Ejecutar el comando
 
 ```bash
-> npm install
+> pip freeze > requirements.txt
 ```
 
-2. Depois que instalar, incluir a `key` e o `endpoint` criado no Portal Azure para a API do Translator Text.
+2. Después de la instalación, incluya la `key` y el `endpoint` creados en el Portal de Azure para la API de Translator Text
 
-3. Depois de incluir a `key` e o `endpoint`, executar o comando dentro da pasta `src` para realizar traduções nos idiomas: `inglês - espanhol - sueco - chinês`:
-
-```bash
-> npm run dev-tradutor
-```
-
-4. E para realizar a tradução da forma falada do idioma `chinês`, executar o comando abaixo dentro da pasta `src`:
+3. Después ejecutar el comando adentro de la caperta: `demo-1` o `demo-2`:
 
 ```bash
-> npm run dev-oriental
+> python <nombre-del-archivo>
 ```
 
 ## ⭐️Links & Recursos Importantes 
